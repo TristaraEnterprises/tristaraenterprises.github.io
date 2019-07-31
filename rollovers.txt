@@ -1,0 +1,22 @@
+<div id="mainTopLeftButton">
+			<a href="newfreshman.html"><div id="freshmenRollover" 
+			class="homepageImagesLeft">
+			<span>New Freshmen</span></div></a>
+			</div>
+
+		
+			<div id="mainTopRightButton">
+			<a href="languageschoolstudent.html"><div id="languageSchoolRollover" class="homepageImagesLeft"><span>Language School Student</span></div></a>
+			</div>
+
+			
+
+			<div id="mainBottomLeftButton">
+			<a id="transferStudentRollover" 
+			class="homepageImagesRight" href="transferstudent.html">
+			<span>Transfer Students</span></a>
+			</div>
+			
+			<div id="mainBottomRightButton">
+			<a href="graduatestudent.html"><div id="graduateStudentRollover" class="homepageImagesRight"><span>Graduate Students</span></div></a>
+			</div>

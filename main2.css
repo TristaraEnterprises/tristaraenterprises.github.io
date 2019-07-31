@@ -1,0 +1,337 @@
+body {
+	background-image: url("food.png"); //courtesy of subtlepatterns.com
+}
+
+header {
+	background-color: #2e86ab;
+	height: 50px;
+	width: 100%;
+	border-bottom: 3px solid white;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	color: white;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+}
+
+header h1 {
+	//position: fixed;
+	//top: 0px;
+	//left: 0px;
+	margin-top: 3px;
+	margin-left: 10px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+header a:link {
+	text-decoration: none;
+	color: white;
+}
+
+header a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+header a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+#topNav {
+	position: fixed;
+	top: 0px;
+	right: 50px;
+}
+
+#topNav a:link {
+	color: #add9f4;
+ 	text-decoration: none;
+}
+
+#topNav a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+#topNav a:visited {
+	color: #93c0a4;
+	text-decoration: none;
+}
+
+#homepageMainDiv {
+	//margin-top: 53px;
+
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1024px;
+	font-family: Arial, sans-serif;
+}
+
+#mainTopLeftButton {
+	//position: fixed;
+	//top: 65px;
+	//left: 10%;
+
+	position: absolute;
+	top: 83px;
+	left: 120px;
+	height:200px;
+	width:300px;
+}
+
+#mainBottomLeftButton {
+	//position: fixed;
+	//top: 285px;
+	//left: 10%;
+
+	position: absolute;
+	top: 353px;
+	left: 120px;
+	height:200px;
+	width:300px;
+}
+
+#mainTopRightButton {
+	//position: fixed;
+	//top: 65px;
+	//right: 10%;
+
+	position: absolute;
+	top: 83px;
+	right: 120px;
+	height:200px;
+	width:300px;
+}
+
+#mainBottomRightButton {
+	//position: fixed;
+	//top: 285px;
+	//right: 10%;
+
+	position: absolute;
+	top: 353px;
+	right: 120px;
+	height:200px;
+	width:300px;
+}
+
+#freshmenRollover {
+	width: 300px;
+	height: 200px;
+	background: url("NewFreshmenRolloverButton.png") no-repeat 0 0;
+	margin: 0px;
+}
+
+#freshmenRollover:hover {
+	background-position: 0 -200px;
+}
+
+#freshmenRollover span {
+	display: none;
+}
+
+#transferStudentRollover {
+	
+	width: 300px;
+	height: 200px;
+	background: url("TransferStudentRolloverButton.png") no-repeat 0 0;
+	margin: 0px;
+}
+
+#transferStudentRollover:hover {
+	background-position: 0 -200px;
+}
+
+#transferStudentRollover span {
+	display: none;
+}
+
+#languageSchoolRollover {
+	width: 300px;
+	height: 200px;
+	background: url("LanguageSchoolRolloverButton.png") no-repeat 0 0;
+	margin: 0px;
+}
+
+#languageSchoolRollover:hover {
+	background-position: 0 -200px;
+}
+
+#languageSchoolRollover span {
+	display: none;
+}
+
+#graduateStudentRollover {
+	width: 300px;
+	height: 200px;
+	background: url("GraduateStudentRolloverButton.png") no-repeat 0 0;
+	margin: 0px;
+}
+
+#graduateStudentRollover:hover {
+	background-position: 0 -200px;
+}
+
+#graduateStudentRollover span {
+	display: none;
+}
+
+.homepageImagesLeft {
+	border: 3px solid #1c0221;
+	border-radius: 25px;
+	margin-left: 10%
+}
+
+.homepageImagesRight {
+	border: 3px solid #1c0221;
+	border-radius: 25px;
+	margin-right: 10%;
+	float: right;
+}
+
+#navBar {
+	width: 900px;
+	height: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 70px;
+	text-align: center;
+	background-color: #dd6031;
+	border: 3px solid #984447;
+	border-radius: 15px;
+	font-weight: bold;
+}
+
+#navBar a:link {
+	color: white;
+	text-decoration: none;
+}
+
+#navBar a:hover {
+	color: yellow;
+	text-decoration: underline;
+}
+
+#navBar a:visited {
+	color: pink;
+	text-decoration: none;
+}
+
+#oneContentBox {
+	width: 900px;
+	height: 440px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	background-color: white;
+	border: 3px solid #984447;
+	border-radius: 25px;
+}
+
+.smallerFont {
+	font-size: 11px;
+}
+
+#oneContentBox h1 {
+	color: #2e86ab;
+	margin: 20px;
+}
+
+#oneContentBox p {
+	margin: 20px;
+	text-indent: 3em;
+}
+
+#oneContentBox ul {
+	margin-left: 100px;
+}
+
+#oneContentBox ul .secondaryUL {
+	margin-left: 30px;
+}
+
+.oneContentBoxLink a {
+	color: #FF9912;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.oneContentBoxLink a:hover {
+	color: #CD1076;
+	text-decoration: none;
+	font-weight: bold;
+}	
+
+#oneContentBoxLeftSideBar {
+	width: 200px;
+	height: 410px;
+	margin: 15px;
+	border-right: 1px solid purple;
+	float: left;
+	padding: 5px;
+}
+
+#oneContentBoxLeftSideBar span {
+	font-size: .8em;
+	color: green;
+}
+
+#leftSideBarLinks a {
+	text-decoration: none;
+	color: #FF9912;
+	font-weight: bold;
+}
+
+#leftSideBarLinks a:hover {
+	text-decoration: underline;
+	color: #CD1076;
+	font-weight: bold;
+}
+
+#leftSideBarLinks a:visited {
+	text-decoration: none;
+	color: #8B4500;
+	font-weight: bold;
+}
+
+#oneContentBoxRightSideContent h2 {
+	color: #2e86ab;
+	margin: 20px;
+}
+
+#oneContentBoxRightSideContent h3 {
+	margin: 20px;
+}
+
+#oneContentBoxRightSideContent p {
+	margin: 20px;
+	text-indent: 0em;
+}
+
+.emphasize {
+	color: green;
+	font-weight: bold;
+}
+
+footer {
+	background-color: #2e86ab;
+	height: 50px;
+	width: 100%;
+	border-top: 3px solid white;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+
+footer p {
+	//font-weight: bold;
+	color: white;
+	font-family: 'Bree Serif', serif;
+}
